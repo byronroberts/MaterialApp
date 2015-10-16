@@ -6,10 +6,10 @@
               android:background="@color/grey">
 
     <android.support.v7.widget.Toolbar
-            android:id="@+id/app_bar"
+            android:id="@+id/another_bar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
+            android:background="?colorPrimary"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
-
 
 </LinearLayout>
