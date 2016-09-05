@@ -26,9 +26,4 @@ public class AnotherActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onWindowFocusChanged(boolean hasFocus) {
-        super.onWindowFocusChanged(hasFocus);
-        TransitionManager.go(Scene.getSceneForLayout((ViewGroup)findViewById(R.id.another_root), R.layout.another_scene, AnotherActivity.this));
-    }
 }
